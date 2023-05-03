@@ -1,0 +1,38 @@
+* {
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fefefe;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+#recipe-links li {
+    margin: 10px 0;
+    background-color: #444;
+    width: 30%;
+    list-style: none;
+    text-align: center;
+    border: #333;
+    border-radius: 3px;
+}
+
+#recipe-links li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+#recipe-links li a:hover {
+    background-color: #555;
+}
